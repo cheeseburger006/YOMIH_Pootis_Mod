@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/gottem_start.wav-f2d72ae73a561a7266e75cb8461fb927.sample"
+
+[deps]
+
+source_file="res://Pootis/characters/bossOfFacility/sfx/states/gottem/gottem_start.wav"
+dest_files=[ "res://.import/gottem_start.wav-f2d72ae73a561a7266e75cb8461fb927.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
