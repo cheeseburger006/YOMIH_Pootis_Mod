@@ -1,4 +1,4 @@
-[gd_scene load_steps=87 format=2]
+[gd_scene load_steps=85 format=2]
 
 [ext_resource path="res://characters/BaseChar.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Pootis/characters/bossOfFacility/BossOfTheFacilitySpriteFrames.tres" type="SpriteFrames" id=2]
@@ -48,7 +48,7 @@
 [ext_resource path="res://Pootis/characters/bossOfFacility/particles/badguy/RocketExplosionTrayEffect.tscn" type="PackedScene" id=46]
 [ext_resource path="res://Pootis/characters/bossOfFacility/sprites/badguy/thumbnail/thumbnail_texture.tres" type="Texture" id=47]
 [ext_resource path="res://sound/common/jump1.wav" type="AudioStream" id=48]
-[ext_resource path="res://Pootis/characters/bossOfFacility/sprites/rocketShower/thumbnail/animated_thumbnail.tres" type="Texture" id=49]
+[ext_resource path="res://Pootis/characters/bossOfFacility/sfx/states/start/intro3.wav" type="AudioStream" id=49]
 [ext_resource path="res://Pootis/characters/bossOfFacility/projectiles/rocketProjectile/RocketProjectile.tscn" type="PackedScene" id=50]
 [ext_resource path="res://Pootis/characters/bossOfFacility/scripts/states/cigarOfDoom/CigarOfDoom.gd" type="Script" id=51]
 [ext_resource path="res://Pootis/characters/bossOfFacility/projectiles/shellProjectile/ShellProjectile.tscn" type="PackedScene" id=52]
@@ -71,12 +71,10 @@
 [ext_resource path="res://Pootis/characters/bossOfFacility/sfx/states/banditsRevolver/banditsRevolver_hit.wav" type="AudioStream" id=69]
 [ext_resource path="res://Pootis/characters/bossOfFacility/sfx/states/burst/burst.wav" type="AudioStream" id=70]
 [ext_resource path="res://Pootis/characters/bossOfFacility/sfx/states/sputnik/sputnik_start.wav" type="AudioStream" id=71]
-[ext_resource path="res://Pootis/characters/bossOfFacility/sfx/states/sputnik/sputnik_hit.wav" type="AudioStream" id=72]
 [ext_resource path="res://Pootis/characters/bossOfFacility/sfx/states/tutorialCommand/tutorialCommand_cock.wav" type="AudioStream" id=73]
 [ext_resource path="res://Pootis/characters/bossOfFacility/sfx/states/tutorialCommand/tutorialCommand_shoot1.wav" type="AudioStream" id=74]
 [ext_resource path="res://Pootis/characters/bossOfFacility/sfx/states/strikeBack/strikeBack_hit1.wav" type="AudioStream" id=75]
 [ext_resource path="res://Pootis/characters/bossOfFacility/sfx/states/tutorialCommand/tutorialCommand_shoot2.wav" type="AudioStream" id=76]
-[ext_resource path="res://Pootis/characters/bossOfFacility/sfx/states/ultraMegaIperKick/ultraMegaIperKick_hit1.wav" type="AudioStream" id=77]
 [ext_resource path="res://Pootis/characters/bossOfFacility/sfx/states/blip/blip_hit.wav" type="AudioStream" id=78]
 [ext_resource path="res://Pootis/characters/bossOfFacility/sfx/states/moonAndBack/moonAndBack_hit.wav" type="AudioStream" id=79]
 [ext_resource path="res://Pootis/characters/bossOfFacility/sfx/states/blip/blip_whoosh.wav" type="AudioStream" id=80]
@@ -135,7 +133,7 @@ title = ""
 show_in_menu = true
 interrupt_into_string = ""
 _c_Pootis_Vars = 0
-intro_sfxs = [ ExtResource( 62 ), ExtResource( 64 ) ]
+intro_sfxs = [ ExtResource( 62 ), ExtResource( 64 ), ExtResource( 49 ) ]
 
 [node name="ParryHigh" parent="StateMachine" index="2"]
 script = ExtResource( 63 )
@@ -383,12 +381,12 @@ script = ExtResource( 29 )
 anim_length = 69
 ticks_per_frame = 3
 throw_positions = {
+Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/5.png" ): Vector2( -35, -22 ),
 Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/4.png" ): Vector2( -33, -45 ),
 Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/2.png" ): Vector2( 1, -69 ),
-Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/1.png" ): Vector2( 28, -59 ),
-Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/0.png" ): Vector2( 44, -28 ),
 Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/3.png" ): Vector2( -18, -59 ),
-Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/5.png" ): Vector2( -35, -22 )
+Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/1.png" ): Vector2( 28, -59 ),
+Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/0.png" ): Vector2( 44, -28 )
 }
 release_frame = 45
 start_throw_pos_x = 44
@@ -412,12 +410,12 @@ script = ExtResource( 29 )
 anim_length = 69
 ticks_per_frame = 3
 throw_positions = {
+Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/5.png" ): Vector2( -35, -22 ),
 Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/4.png" ): Vector2( -33, -45 ),
 Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/2.png" ): Vector2( 1, -69 ),
-Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/1.png" ): Vector2( 28, -59 ),
-Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/0.png" ): Vector2( 44, -28 ),
 Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/3.png" ): Vector2( -18, -59 ),
-Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/5.png" ): Vector2( -35, -22 )
+Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/1.png" ): Vector2( 28, -59 ),
+Resource( "res://Pootis/characters/bossOfFacility/sprites/forwardThrow/0.png" ): Vector2( 44, -28 )
 }
 release_frame = 69
 start_throw_pos_x = 44
@@ -578,7 +576,6 @@ height = 33
 hitstun_ticks = 120
 cancellable = false
 force_grounded = true
-hit_sound = ExtResource( 72 )
 hit_sound_volume = 15.0
 dir_x = "0.0"
 dir_y = "0.0"
@@ -621,7 +618,6 @@ hit_sound_volume = 5.0
 dir_x = "0.0"
 dir_y = "-0.5"
 knockback = "4.0"
-grounded_hit_state = "HurtAerial"
 start_tick = 1
 active_ticks = 2
 
@@ -701,8 +697,6 @@ y = -45
 width = 19
 height = 10
 damage = 45
-hit_sound = ExtResource( 77 )
-hit_sound_volume = 5.0
 dir_x = "0.15"
 dir_y = "-0.3"
 knockback = "2.0"
@@ -719,8 +713,6 @@ width = 19
 height = 10
 damage = 180
 group = 1
-hit_sound = ExtResource( 77 )
-hit_sound_volume = 5.0
 dir_x = "0.8"
 dir_y = "-0.5"
 grounded_hit_state = "HurtAerial"
@@ -1072,11 +1064,8 @@ enter_sfx = ExtResource( 67 )
 enter_sfx_volume = 20.0
 projectile_scene = ExtResource( 50 )
 show_in_menu = false
-button_texture = ExtResource( 49 )
 air_type = 1
 land_cancel_state = "CigarOfDoom"
-animated_texture = ExtResource( 49 )
-source_files_path = "res://Pootis/characters/bossOfFacility/sprites/rocketShower/thumbnail/"
 projectiles = [ ExtResource( 50 ), ExtResource( 50 ), ExtResource( 50 ), ExtResource( 50 ), ExtResource( 50 ), ExtResource( 50 ), ExtResource( 50 ), ExtResource( 50 ) ]
 projectile_pos = [ Vector2( 38, -52 ), Vector2( -15, -38 ), Vector2( -38, -49 ), Vector2( -102, 0 ), Vector2( 113, -9 ), Vector2( -14, -80 ), Vector2( 56, -14 ), Vector2( -68, -86 ) ]
 projectile_dirs = [ Vector2( -0.2, 1 ), Vector2( 0.1, 1 ), Vector2( 0.1, 1 ), Vector2( 0.3, 1 ), Vector2( -0.15, 1 ), Vector2( 0, 1 ), Vector2( -0.2, 1 ), Vector2( 0.25, 1 ) ]

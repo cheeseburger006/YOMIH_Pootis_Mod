@@ -1,4 +1,4 @@
-extends CharacterStateAnimatedThumbnail
+extends CharacterState
 
 export var _c_Pootis_Vars = 0
 export (Array, PackedScene) var projectiles

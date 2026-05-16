@@ -1,4 +1,4 @@
-extends CharacterStateAnimatedThumbnail
+extends "res://Pootis/mechanics/utils/CharacterStateAnimatedThumbnail.gd"
 
 export var _c_Pootis_Vars = 0
 export (Array, PackedScene) var particles

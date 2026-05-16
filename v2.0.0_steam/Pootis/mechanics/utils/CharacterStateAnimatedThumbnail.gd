@@ -1,7 +1,5 @@
 extends CharacterState
 
-class_name CharacterStateAnimatedThumbnail
-
 export var _c_Animated_Texture_Vars = 0
 export (Texture) var animated_texture
 export var source_files_path = ""
