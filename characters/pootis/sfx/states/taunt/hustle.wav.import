@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/hustle.wav-c1cd936eb306556d9351910b08e9e1b5.sample"
+
+[deps]
+
+source_file="res://Pootis/characters/pootis/sfx/states/taunt/hustle.wav"
+dest_files=[ "res://.import/hustle.wav-c1cd936eb306556d9351910b08e9e1b5.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

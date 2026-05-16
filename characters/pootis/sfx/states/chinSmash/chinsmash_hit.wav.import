@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/chinsmash_hit.wav-a0360c14576ab42f5db570265f52b34a.sample"
+
+[deps]
+
+source_file="res://Pootis/characters/pootis/sfx/states/chinSmash/chinsmash_hit.wav"
+dest_files=[ "res://.import/chinsmash_hit.wav-a0360c14576ab42f5db570265f52b34a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
