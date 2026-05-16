@@ -914,7 +914,7 @@ hit_sound_volume = 5.0
 dir_x = "0.1"
 dir_y = "0.0"
 knockback = "0.5"
-start_tick = 12
+start_tick = 15
 active_ticks = 3
 
 [node name="Hitbox2" type="Node2D" parent="StateMachine/StrikeBack" index="1"]
