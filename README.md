@@ -3,6 +3,12 @@
 This mod is completely based on ceno0's masterpiece [Pootis Engage // EXTREME](https://www.youtube.com/watch?v=lGJBUauU-CE).
 Features Blue Heavy and Buff Soldier with all their moves from the video and more coming soon in the next versions.
 
+## INSTALLATION GUIDE
+
+If you need to use this mod on YOMI Hustle's itch.io version, first extract the repository's content.
+You will only need the folder corresponding to the version you're trying to use, normally the latest compatible with itch.
+Navigate to the version folder and copy/move the .zip file to your game's mod folder.
+
 > ## Version 1.0.0 (unaccessible)
 >
 > Adds Pootis as playable character
